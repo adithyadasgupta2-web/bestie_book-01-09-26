@@ -1,0 +1,6 @@
+{
+  "name": "Happy Birthday, Bestie! 🎂💖",
+  "description": "A magical interactive digital storybook birthday gift for your best friend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

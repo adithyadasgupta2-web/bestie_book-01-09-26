@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --book-spine-width: 24px;
+    --paper-color: #fffdfa;
+    --paper-color-alt: #fdf8f5;
+  }
+}
+
+/* Custom Typography Utility Classes */
+.font-dancing {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-caveat {
+  font-family: 'Caveat', cursive;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-sacramento {
+  font-family: 'Sacramento', cursive;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* 3D Book & Paper Styling */
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Realistic Paper Shadows & Textures */
+.book-shadow {
+  box-shadow: 
+    0 25px 50px -12px rgba(225, 29, 72, 0.25),
+    0 15px 30px -5px rgba(0, 0, 0, 0.3),
+    0 0 40px rgba(244, 114, 182, 0.15),
+    inset 0 0 80px rgba(255, 255, 255, 0.1);
+}
+
+.page-shadow-left {
+  box-shadow: 
+    inset -15px 0 25px -10px rgba(0, 0, 0, 0.12),
+    inset -4px 0 6px -2px rgba(0, 0, 0, 0.08);
+}
+
+.page-shadow-right {
+  box-shadow: 
+    inset 15px 0 25px -10px rgba(0, 0, 0, 0.12),
+    inset 4px 0 6px -2px rgba(0, 0, 0, 0.08);
+}
+
+.page-edge-effect {
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(220, 190, 200, 0.4) 0px,
+    rgba(255, 255, 255, 0.8) 1px,
+    rgba(220, 190, 200, 0.4) 2px
+  );
+}
+
+/* Gold shimmer effect */
+.gold-shimmer {
+  background: linear-gradient(135deg, #ffd700 0%, #ffe066 30%, #f59e0b 50%, #fef3c7 70%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: #f6d365;
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+}
+
+/* Background floating animations */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-16px) rotate(4deg);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes sparkleTwinkle {
+  0%, 100% {
+    opacity: 0.2;
+    transform: scale(0.6) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(45deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+.animate-twinkle {
+  animation: sparkleTwinkle 3s ease-in-out infinite;
+}
+
+/* Custom Scrollbar for book interior if content is long on mobile */
+.custom-book-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-book-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-book-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(244, 114, 182, 0.3);
+  border-radius: 9999px;
+}
+
+/* Paper grain overlay */
+.paper-pattern {
+  background-color: #fffdfa;
+  background-image: radial-gradient(#f9a8d4 0.65px, transparent 0.65px), radial-gradient(#f472b6 0.65px, #fffdfa 0.65px);
+  background-size: 26px 26px;
+  background-position: 0 0, 13px 13px;
+  background-opacity: 0.03;
+}
