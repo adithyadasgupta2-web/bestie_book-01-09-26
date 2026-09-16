@@ -22,9 +22,9 @@ export interface BirthdayConfig {
 }
 
 export const BIRTHDAY_CONFIG: BirthdayConfig = {
-  websiteTitle: "Happy Birthday, Bestie! 🎂💖",
-  bestieName: "Bestie",
-  bestieNickname: "My Favorite Human",
+  websiteTitle: "Happy Birthday, spidey! 🎂💖",
+  bestieName: "spidey",
+  bestieNickname: "My Favorite person",
   // Default to today / upcoming birthday celebration. You can change this date!
   // If the date has passed or is today, the countdown triggers the celebration immediately!
   birthdayDate: new Date(Date.now() + 1000 * 60 * 60 * 24 * 3).toISOString().split('T')[0] + "T00:00:00",
