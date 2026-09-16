@@ -27,7 +27,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
   bestieNickname: "My Favorite person",
   // Default to today / upcoming birthday celebration. You can change this date!
   // If the date has passed or is today, the countdown triggers the celebration immediately!
-  birthdayDate: new Date(Date.now() + 1000 * 60 * 60 * 24 * 3).toISOString().split('T')[0] + "T00:00:00",
+  birthdayDate: 2026-11-12
   photos: {
     photo1: "/assets/images/photo1.jpg",
     photo2: "/assets/images/photo2.jpg",
