@@ -29,10 +29,10 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
   // If the date has passed or is today, the countdown triggers the celebration immediately!
   birthdayDate: "2026-11-12",
   photos: {
-    photo1: "/assets/images/photo1.jpg",
-    photo2: "/assets/images/photo2.jpg",
-    photo3: "/assets/images/photo3.jpg",
-    photo4: "/assets/images/photo4.jpg",
+    photo1: "/assets/photos/photo1.jpg",
+    photo2: "/assets/photos/photo2.jpg",
+    photo3: "/assets/photos/photo3.jpg",
+    photo4: "/assets/photos/photo4.jpg",
   },
   music: {
     title: "Happy Birthday Acoustic & Lofi Vibes",
