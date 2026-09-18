@@ -259,7 +259,7 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
         onTouchEnd={handleTouchEnd}
       >
         {/* Realistic Book Outer Spine & Edge Elevation Container */}
-        <div className="relative w-full aspect-[4/5] sm:aspect-[16/11] max-h-[82vh] book-shadow rounded-2xl sm:rounded-3xl p-1.5 sm:p-2.5 bg-gradient-to-r from-pink-900 via-rose-800 to-pink-950 border-2 border-pink-400/30">
+        <div className="relative w-full aspect-[3/5] sm:aspect-[16/11] min-h-[88vh] max-h-[92vh] sm:max-h-[82vh] book-shadow rounded-2xl sm:rounded-3xl p-1.5 sm:p-2.5 bg-gradient-to-r from-pink-900 via-rose-800 to-pink-950 border-2 border-pink-400/30">
           {/* Subtle 3D Book Page Stack Edges (Right side depth) */}
           <div className="absolute right-0 top-3 bottom-3 w-3 bg-gradient-to-l from-amber-100 via-pink-100 to-white rounded-r-md opacity-80 shadow-md page-edge-effect pointer-events-none" />
           <div className="absolute bottom-0 left-4 right-4 h-2.5 bg-gradient-to-t from-black/40 to-transparent rounded-b-md pointer-events-none" />
