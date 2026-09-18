@@ -9,7 +9,7 @@ export const BestieIntroPage: React.FC = () => {
   const traits = [
     {
       id: 1,
-      title: '',
+      title: 'a gold',
       emoji: '',
       subtitle: '',
       color: 'from-amber-400 to-orange-500',
