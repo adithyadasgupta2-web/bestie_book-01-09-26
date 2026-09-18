@@ -33,14 +33,14 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
     'Book Cover ✨',
     'Welcome Birthday Girl 🎉',
     'Special Countdown 🎂',
-    'Who is this Legend? 😎',
+    //'Who is this Legend? 😎',
     'Memory Reel #1 📸',
     'Memory Reel #2 🤪',
     'Memory Reel #3 ✨',
     'Memory Reel #4 💕',
     'Why You are My Bestie 💖',
-   'Official Bestie Awards 🏆',
-    'Friendship Quiz 🎮',
+   //'Official Bestie Awards 🏆',
+    //'Friendship Quiz 🎮',
     'A Little Letter For You 💌',
     'Make a Wish & Cake 🎂',
     'Our Birthday Vibes 🎵',
@@ -137,12 +137,12 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
             <CountdownPage />
           </BookPage>
         );
-      case 3:
+      /case 3:
         return (
           <BookPage pageNumber={3} totalPages={totalPages - 1}>
             <BestieIntroPage />
           </BookPage>
-        );
+        );/
       case 4:
         return (
           <BookPage pageNumber={4} totalPages={totalPages - 1}>
@@ -173,43 +173,43 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
             <BestieReasonsPage />
           </BookPage>
         );
-      case 9:
+      /case 9:
         return (
           <BookPage pageNumber={9} totalPages={totalPages - 1}>
             <AwardsPage />
           </BookPage>
-        );
-      case 10:
+        );/
+      /case 10:
         return (
           <BookPage pageNumber={10} totalPages={totalPages - 1}>
             <QuizPage />
           </BookPage>
-        );
-      case 11:
+        );/
+      case 8:
         return (
           <BookPage pageNumber={11} totalPages={totalPages - 1}>
             <LetterPage />
           </BookPage>
         );
-      case 12:
+      case 9:
         return (
           <BookPage pageNumber={12} totalPages={totalPages - 1}>
             <WishPage />
           </BookPage>
         );
-      case 13:
+      case 10:
         return (
           <BookPage pageNumber={13} totalPages={totalPages - 1}>
             <MusicPage onMusicPlayStateChange={onMusicPlayStateChange} />
           </BookPage>
         );
-      case 14:
+      case 11:
         return (
           <BookPage pageNumber={14} totalPages={totalPages - 1}>
             <FinalSurprisePage />
           </BookPage>
         );
-      case 15:
+      case 12:
         return (
           <BookPage pageNumber={15} totalPages={totalPages - 1}>
             <EndingPage onRestartStory={() => goToPage(0)} />
