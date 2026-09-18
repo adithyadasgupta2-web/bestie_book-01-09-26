@@ -39,7 +39,7 @@ export const FinalSurprisePage: React.FC = () => {
   };
 
   return (
-    <div className={`h-full flex flex-col justify-between p-3 sm:p-5 relative overflow-y-auto overflow-x-hidden custom-scrollbar transition-colors duration-700 ${
+    <div className={`h-full flex flex-col justify-between p-3 sm:p-5 relative overflow-hidden transition-colors duration-700 ${
       isRevealed
         ? 'bg-gradient-to-b from-[#2a0845] via-[#64147c] to-[#1b002c] text-white'
         : 'bg-gradient-to-b from-[#1e1022] via-[#2d1235] to-[#120815] text-pink-100'
