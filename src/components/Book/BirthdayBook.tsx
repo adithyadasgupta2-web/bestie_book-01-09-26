@@ -143,31 +143,31 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
             <BestieIntroPage />
           </BookPage>
         );/
-      case 4:
+      case 3:
         return (
           <BookPage pageNumber={4} totalPages={totalPages - 1}>
             <MemoryPage1 />
           </BookPage>
         );
-      case 5:
+      case 4:
         return (
           <BookPage pageNumber={5} totalPages={totalPages - 1}>
             <MemoryPage2 />
           </BookPage>
         );
-      case 6:
+      case 5:
         return (
           <BookPage pageNumber={6} totalPages={totalPages - 1}>
             <MemoryPage3 />
           </BookPage>
         );
-      case 7:
+      case 6:
         return (
           <BookPage pageNumber={7} totalPages={totalPages - 1}>
             <MemoryPage4 />
           </BookPage>
         );
-      case 8:
+      case 7:
         return (
           <BookPage pageNumber={8} totalPages={totalPages - 1}>
             <BestieReasonsPage />
