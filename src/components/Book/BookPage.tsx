@@ -17,7 +17,7 @@ export const BookPage: React.FC<BookPageProps> = ({
 }) => {
   return (
     <div
-      className={`relative w-full h-full bg-[#fffefb] rounded-xl sm:rounded-2xl overflow-y-auto overflow-x-hidden custom-scrollbar flex flex-col select-text shadow-inner ${
+      className={`relative w-full h-full bg-[#fffefb] rounded-xl sm:rounded-2xl overflow-hidden flex flex-col justify-between select-text shadow-inner ${
         isLeftPage ? 'page-shadow-left border-r border-pink-200/60' : 'page-shadow-right border-l border-pink-200/60'
       }`}
     >
