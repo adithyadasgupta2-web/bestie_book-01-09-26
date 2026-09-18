@@ -9,12 +9,12 @@ export const BestieIntroPage: React.FC = () => {
   const traits = [
     {
       id: 1,
-      title: 'a gold',
-      emoji: '',
-      subtitle: '',
+      title: 'my bestie',
+
+      subtitle: 'a gold',
       color: 'from-amber-400 to-orange-500',
       bgColor: 'bg-amber-50 border-amber-200 text-amber-900',
-      badge: '',
+      badge: 'super',
     },
     {
       id: 2,
