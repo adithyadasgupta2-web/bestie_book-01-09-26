@@ -46,7 +46,6 @@ export const WelcomePage: React.FC<WelcomePageProps> = () => {
           <p className="font-caveat text-xl sm:text-2xl text-slate-800 leading-relaxed tracking-wide font-semibold mt-1">
             Today is officially <span className="text-rose-600 underline decoration-pink-300 decoration-wavy">YOUR</span> day!
           </p>
-
           <div className="my-3 space-y-1.5 font-caveat text-lg sm:text-xl text-slate-700 font-medium">
             <p>So get ready for some precious memories,</p>
             <p className="text-purple-700">some unstoppable laughter,</p>
