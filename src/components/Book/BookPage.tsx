@@ -47,7 +47,7 @@ export const BookPage: React.FC<BookPageProps> = ({
       </div>
 
       {/* Page Content Container */}
-      <div className="flex-1 w-full overflow-hidden relative z-10">
+      <div className="flex-1 w-full overflow-y-auto overflow-x-hidden relative z-10 custom-scrollbar">
         {children}
       </div>
 
