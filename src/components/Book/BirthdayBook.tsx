@@ -39,7 +39,6 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
     'Memory Reel #3 ✨',
     'Memory Reel #4 💕',
     'Why You are My Bestie 💖',
-   'Official Bestie Awards 🏆',
     'Friendship Quiz 🎮',
     'A Little Letter For You 💌',
     'Make a Wish & Cake 🎂',
@@ -173,43 +172,38 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
             <BestieReasonsPage />
           </BookPage>
         );
+      
       case 9:
-        return (
-          <BookPage pageNumber={9} totalPages={totalPages - 1}>
-            <AwardsPage />
-          </BookPage>
-        );
-      case 10:
         return (
           <BookPage pageNumber={10} totalPages={totalPages - 1}>
             <QuizPage />
           </BookPage>
         );
-      case 11:
+      case 10:
         return (
           <BookPage pageNumber={11} totalPages={totalPages - 1}>
             <LetterPage />
           </BookPage>
         );
-      case 12:
+      case 11:
         return (
           <BookPage pageNumber={12} totalPages={totalPages - 1}>
             <WishPage />
           </BookPage>
         );
-      case 13:
+      case 12:
         return (
           <BookPage pageNumber={13} totalPages={totalPages - 1}>
             <MusicPage onMusicPlayStateChange={onMusicPlayStateChange} />
           </BookPage>
         );
-      case 14:
+      case 13:
         return (
           <BookPage pageNumber={14} totalPages={totalPages - 1}>
             <FinalSurprisePage />
           </BookPage>
         );
-      case 15:
+      case 14:
         return (
           <BookPage pageNumber={15} totalPages={totalPages - 1}>
             <EndingPage onRestartStory={() => goToPage(0)} />
