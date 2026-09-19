@@ -13,8 +13,8 @@ export const MemoryPage4: React.FC = () => {
           <span>Memory Reel #04</span>
         </div>
         <h2 className="font-playfair text-xl sm:text-2xl font-black text-slate-800 leading-tight">
-          AND THE STORY CONTINUES...<br />
-          <span className="text-rose-600 font-dancing text-2xl sm:text-3xl">MORE MEMORIES TO MAKE 💕📸</span>
+         What do i like most about you? ..<br />
+          <span className="text-rose-600 font-dancing text-2xl sm:text-3xl">Hmm....that's a great question 🤔</span>
         </h2>
       </div>
 
@@ -23,7 +23,7 @@ export const MemoryPage4: React.FC = () => {
         <PhotoFrame
           src={BIRTHDAY_CONFIG.photos.photo4}
           alt="And the story continues"
-          caption="Here’s to more memories, more laughter, more photos, and more beautiful moments together. ❤️"
+          caption="your smile ofc 🫠🫠"
           defaultMemoryTitle="To Infinite Tomorrow Adventures"
           defaultMemoryDesc="Replace with your photo in /assets/images/photo4.jpg"
           rotation="rotate-[1deg]"
