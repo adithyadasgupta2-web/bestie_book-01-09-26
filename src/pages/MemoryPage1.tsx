@@ -23,7 +23,7 @@ export const MemoryPage1: React.FC = () => {
         <PhotoFrame
           src={BIRTHDAY_CONFIG.photos.photo1}
           alt="Where our memories began"
-          caption="Every great friendship starts with a memory... and somehow ours became a whole collection of beautiful chaos! 😂💖"
+          caption="Every great friendship starts with a memory... Do you still remember the spider! 😂💖"
           defaultMemoryTitle="The Iconic First Memory"
           defaultMemoryDesc="Replace with your photo in /assets/images/photo1.jpg"
           rotation="rotate-[-1.5deg]"
