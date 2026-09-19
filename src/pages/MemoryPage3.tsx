@@ -14,7 +14,7 @@ export const MemoryPage3: React.FC = () => {
         </div>
         <h2 className="font-playfair text-xl sm:text-2xl font-black text-slate-800 leading-tight">
           THE GOOD OLD DAYS<br />
-          <span className="text-amber-700 font-dancing text-2xl sm:text-3xl">TIMELESS VIBES ✨📸</span>
+          <span className="text-amber-700 font-dancing text-2xl sm:text-3xl">my fav photo of u ✨📸</span>
         </h2>
       </div>
 
@@ -23,7 +23,7 @@ export const MemoryPage3: React.FC = () => {
         <PhotoFrame
           src={BIRTHDAY_CONFIG.photos.photo3}
           alt="The good old days"
-          caption="Different days, different places, but the same crazy friendship. 💖"
+          caption="Who is this gurl🥺....Ofc it's my bestie😎😌💖"
           defaultMemoryTitle="Adventures & Fun Days"
           defaultMemoryDesc="Replace with your photo in /assets/images/photo3.jpg"
           rotation="rotate-[-1deg]"
@@ -35,7 +35,7 @@ export const MemoryPage3: React.FC = () => {
       <div className="text-center pb-1">
         <span className="text-[11px] font-caveat text-amber-700 font-bold flex items-center justify-center gap-1">
           <Heart className="w-3 h-3 text-rose-500 fill-rose-300" />
-          <span>Golden memories etched forever in our hearts</span>
+          <span>just look at the Cutie🥹👉👈</span>
         </span>
       </div>
     </div>
