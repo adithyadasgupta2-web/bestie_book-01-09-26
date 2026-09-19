@@ -14,7 +14,7 @@ export const MemoryPage2: React.FC = () => {
         </div>
         <h2 className="font-playfair text-xl sm:text-2xl font-black text-slate-800 leading-tight">
           MORE MEMORIES,<br />
-          <span className="text-purple-700 font-dancing text-2xl sm:text-3xl">MORE CHAOS 🤪📸</span>
+          <span className="text-purple-700 font-dancing text-2xl sm:text-3xl">MORE CHAOS 📸</span>
         </h2>
       </div>
 
@@ -23,7 +23,7 @@ export const MemoryPage2: React.FC = () => {
         <PhotoFrame
           src={BIRTHDAY_CONFIG.photos.photo2}
           alt="More memories more chaos"
-          caption="Some moments are too beautiful to forget... and some are too embarrassing to ever explain! 😂❤️"
+          caption="Some moments are too beautiful to forget........ ❤️"
           defaultMemoryTitle="Pure Unfiltered Chaos"
           defaultMemoryDesc="Replace with your photo in /assets/images/photo2.jpg"
           rotation="rotate-[1.5deg]"
@@ -35,7 +35,7 @@ export const MemoryPage2: React.FC = () => {
       <div className="text-center pb-1">
         <span className="text-[11px] font-caveat text-purple-600 font-bold flex items-center justify-center gap-1">
           <Sparkles className="w-3 h-3" />
-          <span>Warning: 100% candid & hilarious moments inside!</span>
+          <span>somehow the one and only photo of our Together ☹️</span>
         </span>
       </div>
     </div>
