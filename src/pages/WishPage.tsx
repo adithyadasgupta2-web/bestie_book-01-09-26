@@ -121,7 +121,7 @@ export const WishPage: React.FC = () => {
             <div className="animate-in zoom-in-95 duration-300 flex flex-col items-center">
               <div className="bg-gradient-to-r from-pink-500 via-rose-500 to-purple-600 text-white px-5 py-2.5 rounded-2xl shadow-lg text-center max-w-xs">
                 <p className="font-playfair text-sm sm:text-base font-extrabold text-yellow-200">
-                  WE HOPE YOUR WISH COMES TRUE! 💖✨
+                   HOPE YOUR every  WISH COMES TRUE! 💖✨
                 </p>
                 <p className="font-caveat text-xs sm:text-sm text-pink-100 mt-0.5">
                   May every dream you hold find its way to you this year!
