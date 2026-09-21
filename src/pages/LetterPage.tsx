@@ -125,7 +125,7 @@ export const LetterPage: React.FC = () => {
       <div className="text-center pb-1">
         <span className="text-[11px] font-dancing text-rose-600 font-bold flex items-center justify-center gap-1">
           <Heart className="w-3.5 h-3.5 fill-rose-300 text-rose-500" />
-          <span>Sealed with infinite love & bestie blessings</span>
+          <span>Sealed with infinite love &  blessings</span>
         </span>
       </div>
     </div>
