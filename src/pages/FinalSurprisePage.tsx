@@ -125,7 +125,7 @@ export const FinalSurprisePage: React.FC = () => {
           <div className="p-2 sm:p-3 bg-gradient-to-r from-rose-500/30 via-pink-500/40 to-purple-500/30 rounded-xl border-2 border-pink-400/60 shadow-[0_0_20px_rgba(244,114,182,0.4)] w-full">
             <h3 className="font-playfair text-xl sm:text-3xl font-black text-yellow-200 tracking-wide flex items-center justify-center gap-2">
               <Heart className="w-5 h-5 text-rose-400 fill-rose-400 animate-pulse" />
-              <span>BESTIES FOREVER ❤️♾️</span>
+              <span>BE MY BESTIE FOREVER ❤️♾️</span>
               <Heart className="w-5 h-5 text-rose-400 fill-rose-400 animate-pulse" />
             </h3>
           </div>
