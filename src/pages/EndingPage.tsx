@@ -40,7 +40,7 @@ export const EndingPage: React.FC<EndingPageProps> = ({ onRestartStory }) => {
           </p>
 
           <p className="font-dancing text-2xl sm:text-3xl text-purple-900 font-black mt-4">
-            Love You, {BIRTHDAY_CONFIG.bestieName}! 💖
+            Love You, {BIRTHDAY_CONFIG.bestieName}!😘💖
           </p>
 
           {/* Re-read Story Button */}
