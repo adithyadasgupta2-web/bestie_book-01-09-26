@@ -11,10 +11,10 @@ const FULL_LETTER_PARAGRAPHS = [
   `Life becomes so much more beautiful when you have someone to share both the happy and crazy moments with.`,
   `On your birthday, I hope you receive everything your heart wishes for.`,
   `Keep smiling. Keep laughing. Keep being the amazing, beautiful and wonderfully crazy person you are. 😂💖`,
-  `Happy Birthday once again, Bestie! I hope our friendship always stays just as crazy, just as beautiful, and just as special. ❤️✨`,
+  `Happy Birthday once again, Bestie! I hope our friendship always stays just as crazy, just as beautiful, and just as special.Be my bestie forever`,
 ];
 
-const SIGNATURE = "With lots of love,\nYour Forever Bestie 💖";
+const SIGNATURE = "With lots of love,\nYour Forever adithya 💖";
 
 export const LetterPage: React.FC = () => {
   const [displayedText, setDisplayedText] = useState('');
