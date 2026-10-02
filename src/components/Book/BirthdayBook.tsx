@@ -33,7 +33,7 @@ export const BirthdayBook: React.FC<BirthdayBookProps> = ({ onMusicPlayStateChan
     'Book Cover ✨',
     'Welcome Birthday Girl 🎉',
     'Special Countdown 🎂',
- ,
+
     'Memory Reel #1 📸',
     'Memory Reel #2 🤪',
     'Memory Reel #3 ✨',
