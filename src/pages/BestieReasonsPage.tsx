@@ -22,8 +22,8 @@ export const BestieReasonsPage: React.FC = () => {
     {
       id: 3,
       emoji: '🤪',
-      text: 'You are crazy enough to match my exact frequency and vibe of chaos.',
-      tag: 'Partner in Crime',
+      text: 'You are cool enough to match my vibe of chaos and calmness  .',
+      tag: 'coooooooollllll',
     },
     {
       id: 4,
@@ -34,8 +34,8 @@ export const BestieReasonsPage: React.FC = () => {
     {
       id: 5,
       emoji: '✨',
-      text: 'You make the most ordinary casual days feel completely unforgettable.',
-      tag: 'Pure Magic',
+      text: 'you become my personal doctor when i become  sick,'
+      tag: 'doctor mam',
     },
     {
       id: 6,
