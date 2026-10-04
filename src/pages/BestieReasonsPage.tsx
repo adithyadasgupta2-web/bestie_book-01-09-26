@@ -22,7 +22,7 @@ export const BestieReasonsPage: React.FC = () => {
     {
       id: 3,
       emoji: '🤪',
-      text: 'You are cool enough to match my vibe of chaos and calmness  .',
+      text: 'You are cool enough to match my vibe of chaos and calmness.',
       tag: 'coooooooollllll',
     },
     {
@@ -34,7 +34,7 @@ export const BestieReasonsPage: React.FC = () => {
     {
       id: 5,
       emoji: '✨',
-      text: 'you become my personal doctor when i become  sick,'
+      text: 'you become my personal doctor when i become  sick.',
       tag: 'doctor mam',
     },
     {
